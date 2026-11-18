@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vanto Automobili: built to be felt</title>
+<meta name="description" content="Vanto builds hand-finished sports cars for people who drive them.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header class="site-header" id="top-bar">
+  <a class="logo" href="#top" aria-label="Vanto Automobili, home">
+    <span class="logo-mark" aria-hidden="true"></span>
+    <span class="logo-text">Vanto</span>
+  </a>
+  <button class="menu-btn" aria-expanded="false" aria-controls="main-nav">Menu</button>
+  <nav id="main-nav" class="main-nav" aria-label="Main">
+    <a href="#models">Models</a>
+    <a href="#heritage">Racing heritage</a>
+    <a href="#news">News</a>
+    <a href="#contact" class="nav-cta">Book a test drive</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- 1. Hero -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-word" aria-hidden="true" data-speed="0.25">VANTO</div>
+    <div class="hero-stripes" aria-hidden="true" data-speed="0.4"></div>
+    <div class="hero-car" data-speed="0.18"><img src="./images/car-red.svg" alt="Red Vanto sports car" width="600" height="200"></div>
+    <div class="hero-inner" data-speed="-0.12">
+      <h1 id="hero-title" class="split">Built to be felt.</h1>
+      <p class="hero-sub">Hand-finished sports cars for people who actually drive them. Fewer than 900 built each year.</p>
+      <a class="btn btn-red" href="#models">Explore</a>
+    </div>
+  </section>
+
+  <!-- 2. Models -->
+  <section class="models light" id="models" aria-labelledby="models-title">
+    <div class="section-head reveal">
+      <h2 id="models-title">Four cars.<br>One attitude.</h2>
+      <div class="arrows">
+        <button class="arrow" data-dir="-1" aria-label="Previous model">&#8592;</button>
+        <button class="arrow" data-dir="1" aria-label="Next model">&#8594;</button>
+      </div>
+    </div>
+    <div class="track" tabindex="0" aria-label="Vanto models, scroll horizontally">
+      <article class="card">
+        <div class="card-art" aria-hidden="true"><img src="images/car-red.svg" alt="" width="600" height="200" loading="lazy"></div>
+        <h3>Aria GT</h3>
+        <p>A grand tourer that crosses a continent before lunch.</p>
+        <dl><div><dt>Power</dt><dd>620 hp</dd></div><div><dt>0 to 100 km/h</dt><dd>3.2 s</dd></div></dl>
+        <a class="btn btn-dark" href="#contact">Discover</a>
+      </article>
+      <article class="card">
+        <div class="card-art alt" aria-hidden="true"><img src="./images/car-red.svg" alt="" width="600" height="200" loading="lazy"></div>
+        <h3>Stradale R</h3>
+        <p>Road-legal, track-tuned. Active aero and a 9,000 rpm limit.</p>
+        <dl><div><dt>Power</dt><dd>780 hp</dd></div><div><dt>0 to 100 km/h</dt><dd>2.7 s</dd></div></dl>
+        <a class="btn btn-dark" href="#contact">Discover</a>
+      </article>
+      <article class="card">
+        <div class="card-art" aria-hidden="true"><img src="./images/car-white.svg" alt="" width="600" height="200" loading="lazy"></div>
+        <h3>Spider S</h3>
+        <p>Open roof, open throttle. The loudest way to spend a Sunday.</p>
+        <dl><div><dt>Power</dt><dd>700 hp</dd></div><div><dt>0 to 100 km/h</dt><dd>3.0 s</dd></div></dl>
+        <a class="btn btn-dark" href="#contact">Discover</a>
+      </article>
+      <article class="card">
+        <div class="card-art alt" aria-hidden="true"><img src="./images/car-red.svg" alt="" width="600" height="200" loading="lazy"></div>
+        <h3>Lampo EV</h3>
+        <p>Our first electric car. Silent until you ask for everything.</p>
+        <dl><div><dt>Power</dt><dd>1,020 hp</dd></div><div><dt>0 to 100 km/h</dt><dd>2.1 s</dd></div></dl>
+        <a class="btn btn-dark" href="#contact">Discover</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- 3. Racing heritage -->
+  <section class="heritage dark" id="heritage" aria-labelledby="heritage-title">
+    <div class="heritage-grid">
+      <div class="reveal">
+        <h2 id="heritage-title">Seventy-four years of racing.</h2>
+        <p>We started in a barn outside Modena with one engine and a stopwatch. We still test every idea on a circuit before it reaches a customer.</p>
+      </div>
+      <ul class="stats">
+        <li class="reveal"><span class="num" data-target="74">74</span><span class="label">seasons raced</span></li>
+        <li class="reveal"><span class="num" data-target="212">212</span><span class="label">race wins</span></li>
+        <li class="reveal"><span class="num" data-target="16">16</span><span class="label">world titles</span></li>
+        <li class="reveal"><span class="num" data-target="9000" data-format="comma">9,000</span><span class="label">rpm, redline of the Stradale R</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 4. News -->
+  <section class="news light" id="news" aria-labelledby="news-title">
+    <h2 id="news-title" class="reveal">Latest from Vanto</h2>
+    <div class="news-grid">
+      <article class="news-card reveal">
+        <div class="news-art a" aria-hidden="true"><img src="./images/car-white.svg" alt="" width="600" height="200" loading="lazy"></div>
+        <time datetime="2026-11-12">12 November 2026</time>
+        <h3>Lampo EV completes its 24-hour endurance run</h3>
+        <a class="text-link" href="#news">Read more</a>
+      </article>
+      <article class="news-card reveal">
+        <div class="news-art b" aria-hidden="true"><img src="./images/car-white.svg" alt="" width="600" height="200" loading="lazy"></div>
+        <time datetime="2026-10-29">29 October 2026</time>
+        <h3>Stradale R takes pole at the season finale</h3>
+        <a class="text-link" href="#news">Read more</a>
+      </article>
+      <article class="news-card reveal">
+        <div class="news-art c" aria-hidden="true"><img src="./images/car-red.svg" alt="" width="600" height="200" loading="lazy"></div>
+        <time datetime="2026-10-03">3 October 2026</time>
+        <h3>New factory tour opens to visitors in spring</h3>
+        <a class="text-link" href="#news">Read more</a>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<!-- 5. Footer -->
+<footer class="site-footer dark" id="contact">
+  <div class="footer-top">
+    <div>
+      <a class="logo" href="#top" aria-label="Vanto Automobili, back to top">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span class="logo-text">Vanto</span>
+      </a>
+      <p class="footer-note">Via dei Motori 12, Modena, Italy</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="#models">Models</a>
+      <a href="#heritage">Racing heritage</a>
+      <a href="#news">News</a>
+      <a href="mailto:hello@vanto.example">hello@vanto.example</a>
+    </nav>
+  </div>
+  <p class="legal">&copy; 2026 Vanto Automobili. A fictional brand made for a demo page.</p>
+</footer>
+
+<script src="./script.js" defer></script>
+</body>
+</html>
